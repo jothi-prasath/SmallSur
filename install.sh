@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cp -r xpple_menu/applications/ /home/"$USER"/.local/share
-cp xpple_menu/xpple.menu /home/"$USER"/.config/menu/
+cp -r xpple_menu/xpple.menu /home/"$USER"/.config/menu/
 cp -r "ulauncher theme"/* /home/"$USER"/.config/ulauncher/
 
 
