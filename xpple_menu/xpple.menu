@@ -1,0 +1,29 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+    <Name>Xfce</Name>
+
+    <DefaultAppDirs/>
+    <DefaultDirectoryDirs/>
+
+    <Include>
+        <Category>xpple</Category>
+    </Include>
+
+    <Layout>
+        <Filename>xfce4-about.desktop</Filename>
+        <Separator/>
+        <Filename>xfce-settings-manager.desktop</Filename>
+        <Filename>pamac.manager.desktop</Filename>
+        <Separator/>        
+        <Filename>xfce4-session-forcequit.desktop</Filename>
+        <Separator/>
+        <Filename>xfce4-session-sleep.desktop</Filename>
+        <Filename>xfce4-session-restart.desktop</Filename>
+        <Filename>xfce4-session-shutdown.desktop</Filename>                
+        <Separator/>                       
+        <Filename>xfce4-session-lockscreen.desktop</Filename>
+        <Filename>xfce4-session-logout.desktop</Filename>        
+    </Layout>  
+</Menu>
