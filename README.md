@@ -7,9 +7,9 @@ Run `./install.sh` with `sudo` to install the theme
 
 ### Panel preferences
 <p>
-  <img src="img/appearance.png" width="33%" />
-  <img src="img/display.png" width="33%" /> 
-  <img src="img/items.png" width="33%" />
+  <img src="img/appearance.png" width="30%" />
+  <img src="img/display.png" width="30%" /> 
+  <img src="img/items.png" width="30%" />
 </p>
 
 ### Credits 
