@@ -4,7 +4,8 @@
 
 ### Quick install 
 Run `./install.sh` with `sudo` to install the theme
-Set wallpaper from Wallpaper folder
+
+Set wallpaper from Wallpaper folder and install plank
 
 ### Install plank
 #### For Debian
