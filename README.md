@@ -5,6 +5,18 @@
 ### Quick install 
 Run `./install.sh` with `sudo` to install the theme
 
+### Install plank
+#### Debian
+```
+sudo apt update
+sudo apt install plank -y
+```
+#### Arch
+```
+sudo pacman -Syu
+sudo pacman -S plank -y
+```
+
 ### Panel preferences
 <p>
   <img src="img/appearance.png" width="30%" />
