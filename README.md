@@ -5,18 +5,20 @@
 ### Quick install 
 Run `./install.sh` with `sudo` to install the theme
 
-Set wallpaper from Wallpaper folder and install plank
+Set wallpaper from Wallpaper folder and install plank & ulauncher
 
-### Install plank
+### Install plank & ulauncher
 #### For Debian
 ```
 sudo apt update
 sudo apt install plank -y
+sudo apt install ulauncher -y
 ```
 #### For Arch
 ```
 sudo pacman -Syu
 sudo pacman -S plank -y
+sudo pacman -S install ulauncher -y
 ```
 
 ### Panel preferences
