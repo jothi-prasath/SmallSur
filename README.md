@@ -25,8 +25,12 @@ sudo pacman -S plank -y
 </p>
 
 ### Credits 
-gtk theme - https://github.com/vinceliuice/WhiteSur-gtk-theme
+GTK Theme - https://github.com/vinceliuice/WhiteSur-gtk-theme
 
-icon - https://github.com/vinceliuice/WhiteSur-icon-theme 
+Icon - https://github.com/vinceliuice/WhiteSur-icon-theme 
 
-cursor - https://github.com/vinceliuice/WhiteSur-cursors
+Cursor - https://github.com/vinceliuice/WhiteSur-cursors
+
+Plank Theme - https://www.gnome-look.org/p/1399398/
+
+Xpple Menu - https://www.pling.com/p/1529470/
