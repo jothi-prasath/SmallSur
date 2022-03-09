@@ -16,9 +16,10 @@ sudo apt install ulauncher -y
 ```
 #### For Arch
 ```
-sudo pacman -Syu
-sudo pacman -S plank -y
-sudo pacman -S install ulauncher -y
+sudo pacman --needed -Sy plank git
+git clone https://aur.archlinux.org/ulauncher.git && \
+cd ulauncher && \
+makepkg -si
 ```
 
 ### Panel preferences
