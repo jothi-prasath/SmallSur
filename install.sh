@@ -3,7 +3,7 @@
 user_name="$SUDO_USER"
 
 #Global menu
-apt install xfce4-appmenu-plugin
+apt install xfce4-appmenu-plugin appmenu-*
 
 #Xpple menu
 mkdir -p /home/"$user_name"/.local/share/
@@ -33,3 +33,6 @@ mkdir -p /home/"$user_name"/.local/share/plank/themes/
 cp -r WhiteSur-gtk-theme/src/other/plank/* /home/"$user_name"/.local/share/plank/themes/
 cp -r plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
 
+#Firefox theme
+cd WhiteSur-gtk-theme/tweaks.sh -f monterey 
+     
