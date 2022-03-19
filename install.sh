@@ -35,4 +35,8 @@ cp -r plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
 
 #Firefox theme
 cd WhiteSur-gtk-theme/tweaks.sh -f monterey 
-     
+
+#Xfce4-panel
+killall xfce4-panel 
+cp -r xfce4-panel/xfce4-panel.xml /home/$user_name/.config/xfce4/xfconf/xfce-perchannel-xml/
+reboot
