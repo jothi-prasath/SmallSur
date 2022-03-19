@@ -22,12 +22,6 @@ cd ulauncher && \
 makepkg -si
 ```
 
-### Panel preferences
-<p>
-  <img src="img/appearance.png" width="30%" />
-  <img src="img/display.png" width="30%" /> 
-  <img src="img/items.png" width="30%" />
-</p>
 
 ### Credits 
 GTK Theme - https://github.com/vinceliuice/WhiteSur-gtk-theme
