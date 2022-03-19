@@ -5,11 +5,8 @@ user_name="$SUDO_USER"
 #Global menu
 apt install xfce4-appmenu-plugin appmenu-*
 
-#Xpple menu
-mkdir -p /home/"$user_name"/.local/share/
-cp -r xpple_menu/applications /home/"$user_name"/.local/share
-mkdir -p /home/"$user_name"/.config/menu/
-cp -r xpple_menu/xpple.menu /home/"$user_name"/.config/menu/
+#Xfce4 plugins
+apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd 
 
 #GTK theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
@@ -34,6 +31,7 @@ cp -r WhiteSur-gtk-theme/src/other/plank/* /home/"$user_name"/.local/share/plank
 cp -r plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
 
 #Firefox theme
+killall firefox
 cd WhiteSur-gtk-theme/tweaks.sh -f monterey 
 
 #Xfce4-panel
