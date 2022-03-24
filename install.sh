@@ -32,9 +32,14 @@ cp -r plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
 
 #Firefox theme
 killall firefox
-cd WhiteSur-gtk-theme/tweaks.sh -f monterey 
+WhiteSur-gtk-theme/tweaks.sh -f monterey 
 
 #Xfce4-panel
 killall xfce4-panel 
 cp -r xfce4-panel/xfce4-panel.xml /home/$user_name/.config/xfce4/xfconf/xfce-perchannel-xml/
+
+xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-dark" #Applying theme 
+xfconf-query -c xsettings -p /Net/IconThemeName -s 'WhiteSur-dark' #Icon theme
+xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "WhiteSur Cursors" #Cursor theme
+
 reboot
