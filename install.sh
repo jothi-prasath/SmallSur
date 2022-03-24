@@ -3,10 +3,10 @@
 user_name="$SUDO_USER"
 
 #Global menu
-apt install xfce4-appmenu-plugin appmenu-*
+apt install xfce4-appmenu-plugin appmenu-* -y
 
 #Xfce4 plugins
-apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd 
+apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd -y
 
 #GTK theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
