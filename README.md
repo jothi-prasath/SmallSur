@@ -31,5 +31,3 @@ Icon - https://github.com/vinceliuice/WhiteSur-icon-theme
 Cursor - https://github.com/vinceliuice/WhiteSur-cursors
 
 Plank Theme - https://www.gnome-look.org/p/1399398/
-
-Xpple Menu - https://www.pling.com/p/1529470/
