@@ -1,12 +1,12 @@
 #!/bin/bash
 
-user_name="$SUDO_USER"
+user_name="$USER"
 
 #Global menu
-apt install xfce4-appmenu-plugin appmenu-* -y
+sudo apt install xfce4-appmenu-plugin appmenu-* -y
 
 #Xfce4 plugins
-apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd -y
+sud apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd -y
 
 #GTK theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
@@ -18,28 +18,28 @@ WhiteSur-icon-theme/install.sh
 
 #Cursors
 git clone https://github.com/vinceliuice/WhiteSur-cursors.git
-cp -r WhiteSur-cursors/dist/ /home/$user_name/.local/share/icons/
+cp -rp WhiteSur-cursors/dist/ /home/$user_name/.local/share/icons/
 
 #Ulaucher theme
 mkdir -p /home/"$user_name"/.config/ulauncher/
-cp -r "ulauncher theme"/* /home/"$user_name"/.config/ulauncher/
-chown -R $user_name /home/"$user_name"/.config/ulauncher/*
+cp -rp "ulauncher theme"/* /home/"$user_name"/.config/ulauncher/
+
 
 #Plank themes
 mkdir -p /home/"$user_name"/.local/share/plank/themes/
-cp -r WhiteSur-gtk-theme/src/other/plank/* /home/"$user_name"/.local/share/plank/themes/
-cp -r plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
+cp -rp WhiteSur-gtk-theme/src/other/plank/* /home/"$user_name"/.local/share/plank/themes/
+cp -rp plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
 
 #Firefox theme
-killall firefox
+sudo killall firefox
 WhiteSur-gtk-theme/tweaks.sh -f monterey 
 
 #Xfce4-panel
-killall xfce4-panel 
-cp -r xfce4-panel/xfce4-panel.xml /home/$user_name/.config/xfce4/xfconf/xfce-perchannel-xml/
+sudo killall xfce4-panel 
+cp -rp xfce4-panel/xfce4-panel.xml /home/$user_name/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-dark" #Applying theme 
 xfconf-query -c xsettings -p /Net/IconThemeName -s 'WhiteSur-dark' #Icon theme
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "WhiteSur Cursors" #Cursor theme
 
-reboot
+sudo reboot
