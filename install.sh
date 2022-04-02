@@ -20,6 +20,9 @@ WhiteSur-icon-theme/install.sh
 git clone https://github.com/vinceliuice/WhiteSur-cursors.git
 cp -rp WhiteSur-cursors/dist/ /home/$user_name/.local/share/icons/
 
+#Wallpapers
+cp -rp img/* /home/"$user_name"/Pictures/
+
 #Ulaucher theme
 mkdir -p /home/"$user_name"/.config/ulauncher/
 cp -rp "ulauncher theme"/* /home/"$user_name"/.config/ulauncher/
