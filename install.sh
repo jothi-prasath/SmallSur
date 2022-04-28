@@ -18,20 +18,20 @@ WhiteSur-icon-theme/install.sh
 
 #Cursors
 git clone https://github.com/vinceliuice/WhiteSur-cursors.git
-cp -rp WhiteSur-cursors/dist/ /home/$user_name/.local/share/icons/
+cp -rp WhiteSur-cursors/dist/ ~/.local/share/icons/
 
 #Wallpapers
-cp -rp wallpaper/* /home/"$user_name"/Pictures/
+cp -rp wallpaper/* ~/Pictures/
 
 #Ulaucher theme
-mkdir -p /home/"$user_name"/.config/ulauncher/
-cp -rp "ulauncher theme"/* /home/"$user_name"/.config/ulauncher/
+mkdir -p ~/.config/ulauncher/
+cp -rp "ulauncher theme"/* ~/.config/ulauncher/
 
 
 #Plank themes
-mkdir -p /home/"$user_name"/.local/share/plank/themes/
-cp -rp WhiteSur-gtk-theme/src/other/plank/* /home/"$user_name"/.local/share/plank/themes/
-cp -rp plank/mcOS-BS-iMacM1-Black/ /home/"$user_name"/.local/share/plank/themes/
+mkdir -p ~/.local/share/plank/themes/
+cp -rp WhiteSur-gtk-theme/src/other/plank/* ~/.local/share/plank/themes/
+cp -rp plank/mcOS-BS-iMacM1-Black/ ~/.local/share/plank/themes/
 
 #Firefox theme
 sudo killall firefox
@@ -39,10 +39,13 @@ WhiteSur-gtk-theme/tweaks.sh -f monterey
 
 #Xfce4-panel
 sudo killall xfce4-panel 
-cp -rp xfce4-panel/xfce4-panel.xml /home/$user_name/.config/xfce4/xfconf/xfce-perchannel-xml/
+cp -rp xfce4-panel/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 
-xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-dark" #Applying theme 
-xfconf-query -c xsettings -p /Net/IconThemeName -s 'WhiteSur-dark' #Icon theme
-xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "WhiteSur Cursors" #Cursor theme
+#Applying theme 
+xfconf-query -c xsettings -p /Net/ThemeName -s "WhiteSur-dark" 
+#Icon theme
+xfconf-query -c xsettings -p /Net/IconThemeName -s 'WhiteSur-dark' 
+#Cursor theme
+xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "WhiteSur Cursors" 
 
 sudo reboot
