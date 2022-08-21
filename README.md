@@ -1,29 +1,36 @@
 <h1 align="center"> Small Sur </h1>
-<p align="center"> <img src="img/sample.png"/> </p>
+<p align="center"> <img src="img/sample1.png"/> </p>
+<p align="center"> <img src="img/sample2.png"/> </p>
 
 
-### Quick install 
-Run `./install.sh` with `sudo` to install the theme
+## Quick install 
+### For Debian/Ubuntu
+```
+sudo ./install-debian.sh
+``` 
 
-Set wallpaper from Wallpaper folder and install plank & ulauncher
+### For Arch/Manjaro
+```
+sudo ./install-arch.sh
+```
 
-### Install plank & ulauncher
-#### For Debian
+(Set wallpaper from ~/Pictures folder and install plank & ulauncher)
+
+## Install plank & Albert
+#### For Debian/Ubuntu
 ```
 sudo apt update
 sudo apt install plank -y
-sudo apt install ulauncher -y
+sudo apt install albert -y
 ```
-#### For Arch
+#### For Arch/Manjaro
 ```
-sudo pacman --needed -Sy plank git
-git clone https://aur.archlinux.org/ulauncher.git && \
-cd ulauncher && \
-makepkg -si
+sudo pacman --needed -Sy plank albert
 ```
+(note: Enable AUR to install albert)
 
 
-### Credits 
+## Credits 
 GTK Theme - https://github.com/vinceliuice/WhiteSur-gtk-theme
 
 Icon - https://github.com/vinceliuice/WhiteSur-icon-theme 
