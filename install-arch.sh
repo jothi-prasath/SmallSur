@@ -2,11 +2,8 @@
 
 user_name="$USER"
 
-#Global menu
-sudo apt install xfce4-appmenu-plugin appmenu-* -y
-
-#Xfce4 plugins
-sudo apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd -y
+#Global menu and xfce plugin
+sudo pacman -S  xfce4-goodies xfce4-power-manager --needed
 
 #GTK theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
@@ -18,27 +15,21 @@ WhiteSur-icon-theme/install.sh
 
 #Cursors
 git clone https://github.com/vinceliuice/WhiteSur-cursors.git
-cp -rp WhiteSur-cursors/dist/ ~/.local/share/icons/
+mkdir -p ~/.local/share/icons/
+cp -r WhiteSur-cursors/dist/ ~/.local/share/icons/
 
 #Wallpapers
-cp -rp wallpaper/* ~/Pictures/
-
-#Ulaucher theme
-mkdir -p ~/.config/ulauncher/
-cp -rp "ulauncher theme"/* ~/.config/ulauncher/
-
+mkdir -p ~/Pictures/
+cp -r wallpaper/* ~/Pictures/
 
 #Plank themes
 mkdir -p ~/.local/share/plank/themes/
 cp -rp WhiteSur-gtk-theme/src/other/plank/* ~/.local/share/plank/themes/
 cp -rp plank/mcOS-BS-iMacM1-Black/ ~/.local/share/plank/themes/
 
-#Firefox theme
-sudo killall firefox
-WhiteSur-gtk-theme/tweaks.sh -f monterey 
-
 #Xfce4-panel
 sudo killall xfce4-panel 
+mkdir -p ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 cp -rp xfce4-panel/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/
 
 #Applying theme 
@@ -48,4 +39,4 @@ xfconf-query -c xsettings -p /Net/IconThemeName -s 'WhiteSur-dark'
 #Cursor theme
 xfconf-query -c xsettings -p /Gtk/CursorThemeName -s "WhiteSur Cursors" 
 
-sudo reboot
+echo "Reboot You system"
