@@ -8,35 +8,36 @@
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="2"/>
-        <value type="int" value="1"/>
+        <value type="int" value="16"/>
         <value type="int" value="4"/>
-        <value type="int" value="7"/>
-        <value type="int" value="8"/>
         <value type="int" value="5"/>
+        <value type="int" value="8"/>
+        <value type="int" value="7"/>
+        <value type="int" value="14"/>
         <value type="int" value="10"/>
         <value type="int" value="9"/>
         <value type="int" value="6"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
         <value type="int" value="13"/>
-        <value type="int" value="3"/>
         <value type="int" value="15"/>
       </property>
-      <property name="background-style" type="uint" value="0"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="background-style" type="uint" value="1"/>
+      <property name="size" type="uint" value="25"/>
       <property name="length-adjust" type="bool" value="true"/>
       <property name="span-monitors" type="bool" value="false"/>
       <property name="mode" type="uint" value="0"/>
       <property name="autohide-behavior" type="uint" value="0"/>
       <property name="disable-struts" type="bool" value="false"/>
-      <property name="icon-size" type="uint" value="24"/>
+      <property name="icon-size" type="uint" value="16"/>
       <property name="background-rgba" type="array">
-       <value type="double" value="0.000000"/>
-       <value type="double" value="0.000000"/>
-       <value type="double" value="0.000000"/>
-      <value type="double" value="0.219858"/>
-</property>
+        <value type="double" value="0.235294"/>
+        <value type="double" value="0.047059"/>
+        <value type="double" value="0.627451"/>
+        <value type="double" value="0.850000"/>
+      </property>
     </property>
+    <property name="dark-mode" type="bool" value="false"/>
   </property>
   <property name="plugins" type="empty">
     <property name="plugin-2" type="string" value="separator">
@@ -56,36 +57,57 @@
         <value type="string" value="network"/>
         <value type="string" value="ulauncher"/>
       </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="obs"/>
+        <value type="string" value="wi-fi network connection “jothi prasath 2” active: jothi prasath (74%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath 2” active: jothi prasath (68%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath 1” active: jothi prasath (66%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath 1” active: jothi prasath (52%)"/>
+        <value type="string" value="anydesk"/>
+        <value type="string" value="wi-fi network connection “jothi prasath 1” active: jothi prasath (31%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath 1” active: jothi prasath (72%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (74%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (35%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (36%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (33%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (30%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (31%)"/>
+        <value type="string" value="javaembeddedframe"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (68%)"/>
+        <value type="string" value="wi-fi network connection “jothi prasath” active: jothi prasath (72%)"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="tuxedo-control-center1"/>
+        <value type="string" value="heroic1"/>
+        <value type="string" value="Proton Mail Bridge"/>
+        <value type="string" value="albert"/>
+        <value type="string" value="Proton VPN Tray"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="KDE Connect Indicator"/>
+        <value type="string" value="discover_overlay"/>
+        <value type="string" value="steam"/>
+        <value type="string" value="vlc"/>
+        <value type="string" value="Mailspring1"/>
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="discord1"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="obs"/>
+        <value type="string" value="MSM Notifier"/>
+        <value type="string" value="ulauncher"/>
+      </property>
+      <property name="hidden-items" type="array">
+        <value type="string" value="ulauncher"/>
+      </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
-    <property name="plugin-7" type="string" value="indicator">
-      <property name="blacklist" type="array">
-        <value type="string" value="libappmenu.so"/>
-      </property>
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="known-indicators" type="array">
-        <value type="string" value="com.canonical.indicator.messages"/>
-      </property>
-    </property>
-    <property name="plugin-8" type="string" value="statusnotifier">
-      <property name="icon-size" type="uint" value="22"/>
-      <property name="menu-is-primary" type="bool" value="true"/>
-      <property name="mode-whitelist" type="bool" value="false"/>
-      <property name="single-row" type="bool" value="false"/>
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="symbolic-icons" type="bool" value="true"/>
-      <property name="known-items" type="array">
-        <value type="string" value="discord1"/>
-        <value type="string" value="ulauncher"/>
-        <value type="string" value="nm-applet"/>
-      </property>
-    </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="firefox.instance5445;firefox.instance6384;GnomeMusic;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
@@ -95,22 +117,29 @@
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-format" type="string" value="%a %d  %b %l:%M %p"/>
     </property>
-    <property name="plugin-1" type="string" value="appmenu">
-      <property name="plugins" type="empty">
-        <property name="plugin-1" type="empty">
-          <property name="compact-mode" type="bool" value="false"/>
-          <property name="bold-application-name" type="bool" value="true"/>
-          <property name="expand" type="bool" value="false"/>
-        </property>
-      </property>
-    </property>
-    <property name="plugin-3" type="string" value="actions"/>
     <property name="plugin-13" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
       <property name="expand" type="bool" value="false"/>
     </property>
     <property name="plugin-15" type="string" value="separator">
       <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-7" type="string" value="xfce4-sensors-plugin"/>
+    <property name="plugin-8" type="string" value="separator">
+      <property name="expand" type="bool" value="false"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-16" type="string" value="appmenu">
+      <property name="plugins" type="empty">
+        <property name="plugin-16" type="empty">
+          <property name="compact-mode" type="bool" value="false"/>
+          <property name="bold-application-name" type="bool" value="true"/>
+          <property name="expand" type="bool" value="true"/>
+        </property>
+      </property>
     </property>
   </property>
   <property name="configver" type="int" value="2"/>
