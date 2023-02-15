@@ -14,6 +14,11 @@ sudo ./install-debian.sh
 ```
 sudo ./install-arch.sh
 ```
+### For Fedora
+#### Install plank, ulancher, vala-panel-appmenu manually
+```
+sudo ./install-fedora.sh
+```
 
 (Set wallpaper from ~/Pictures folder and install plank & ulauncher)
 
