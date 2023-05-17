@@ -35,6 +35,12 @@ sudo pacman --needed -Sy plank albert
 ```
 (note: Enable AUR to install albert)
 
+## Contribute
+
+Contributions are welcome! If you would like to contribute to the Small Sur project, please follow these steps:
+* Test the script thoroughly to ensure it works as expected.
+* Add inline comments in the code where appropriate, especially for complex or non-obvious sections, to enhance code readability and maintainability.
+
 
 ## Credits 
 GTK Theme - https://github.com/vinceliuice/WhiteSur-gtk-theme
