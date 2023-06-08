@@ -10,7 +10,7 @@ sudo apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-
 
 #GTK theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
-WhiteSur-gtk-theme/install.sh -c dark -c light
+WhiteSur-gtk-theme/install.sh -l -c dark -c light
 
 #Icons
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git

@@ -7,7 +7,7 @@ sudo pacman -S  xfce4-goodies xfce4-power-manager --needed
 
 #GTK theme
 git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
-WhiteSur-gtk-theme/install.sh -c dark -c light
+WhiteSur-gtk-theme/install.sh -l -c dark -c light
 
 #Icons
 git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
