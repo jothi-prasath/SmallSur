@@ -35,6 +35,14 @@ sudo pacman --needed -Sy plank albert
 ```
 (note: Enable AUR to install albert)
 
+## For Gnome Users
+If you are using the Gnome desktop environment, you can check out my other project, [Gnomintosh](https://github.com/jothi-prasath/gnomintosh). Gnomintosh provides a macOS-inspired theme specifically designed for Gnome. It includes themes, icons, and other customization elements to give your Gnome desktop a sleek and modern look.
+
+<p align="center"> <a href="https://github.com/jothi-prasath/gnomintosh">
+<img src="https://raw.githubusercontent.com/jothi-prasath/gnomintosh/master/images/1.png"/>
+<img src="https://raw.githubusercontent.com/jothi-prasath/gnomintosh/master/images/2.png"/>
+</a> </p>
+
 ## Contribute
 
 Contributions are welcome! If you would like to contribute to the Small Sur project, please follow these steps:
