@@ -9,7 +9,7 @@ sudo apt install xfce4-appmenu-plugin appmenu-* -y
 sudo apt install xfce4-indicator-plugin xfce4-statusnotifier-plugin xfce4-power-manager xfce4-pulseaudio-plugin xfce4-notifyd -y
 
 #GTK theme
-git clone https://github.com/vinceliuice/WhiteSur-gtk-theme.git
+git clone https://github.com/jothi-prasath/WhiteSur-gtk-theme.git
 WhiteSur-gtk-theme/install.sh -l -c dark -c light
 
 #Icons
