@@ -84,6 +84,10 @@ If you are using the Gnome desktop environment, you can check out my other proje
 <img src="https://raw.githubusercontent.com/jothi-prasath/gnomintosh/master/images/2.png"/>
 </a> </p>
 
+## Star
+
+![Stars](https://api.star-history.com/svg?repos=jothi-prasath/SmallSur&type=Date)
+
 ## Contribute
 
 Contributions are welcome! If you would like to contribute to the Small Sur project, please follow these steps:
