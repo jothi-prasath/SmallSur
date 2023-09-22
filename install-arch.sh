@@ -6,15 +6,15 @@ user_name="$USER"
 sudo pacman -S  xfce4-goodies xfce4-power-manager --needed
 
 #GTK theme
-git clone https://github.com/jothi-prasath/WhiteSur-gtk-theme.git
+git clone https://github.com/jothi-prasath/WhiteSur-gtk-theme.git --depth=1
 WhiteSur-gtk-theme/install.sh -l -c dark -c light
 
 #Icons
-git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git
+git clone https://github.com/vinceliuice/WhiteSur-icon-theme.git --depth=1
 WhiteSur-icon-theme/install.sh
 
 #Cursors
-git clone https://github.com/vinceliuice/WhiteSur-cursors.git
+git clone https://github.com/vinceliuice/WhiteSur-cursors.git --depth=1
 mkdir -p ~/.local/share/icons/
 cp -r WhiteSur-cursors/dist/ ~/.local/share/icons/
 
