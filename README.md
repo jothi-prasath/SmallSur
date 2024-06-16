@@ -43,7 +43,7 @@ git clone https://github.com/jothi-prasath/SmallSur
 cd SmallSur
 ```
 ```bash
-sudo ./install-debian.sh
+chmod +x install-debian.sh && sudo ./install-debian.sh
 ``` 
 
 ### For Arch/Manjaro
@@ -54,7 +54,7 @@ git clone https://github.com/jothi-prasath/SmallSur
 cd SmallSur
 ```
 ```bash
-sudo ./install-arch.sh
+chmod +x install-arch.sh && sudo ./install-arch.sh
 ```
 ### For Fedora
 ```bash
@@ -64,7 +64,7 @@ git clone https://github.com/jothi-prasath/SmallSur
 cd SmallSur
 ```
 ```bash
-sudo ./install-fedora.sh
+chmod +x install-fedora.sh && sudo ./install-fedora.sh
 ```
 Note: By default, the wallpapers are installed in the Pictures folder in your home directory.
 
